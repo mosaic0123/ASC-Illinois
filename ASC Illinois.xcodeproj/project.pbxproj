@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015DE66B1AACFC3000BF3539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DE66A1AACFC3000BF3539 /* AppDelegate.swift */; };
+		015DE66D1AACFC3000BF3539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DE66C1AACFC3000BF3539 /* ViewController.swift */; };
+		015DE6701AACFC3000BF3539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015DE66E1AACFC3000BF3539 /* Main.storyboard */; };
+		015DE6721AACFC3000BF3539 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015DE6711AACFC3000BF3539 /* Images.xcassets */; };
+		015DE6751AACFC3000BF3539 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 015DE6731AACFC3000BF3539 /* LaunchScreen.xib */; };
+		015DE6811AACFC3000BF3539 /* ASC_IllinoisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DE6801AACFC3000BF3539 /* ASC_IllinoisTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		015DE67B1AACFC3000BF3539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 015DE65D1AACFC3000BF3539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 015DE6641AACFC3000BF3539;
+			remoteInfo = "ASC Illinois";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015DE6651AACFC3000BF3539 /* ASC Illinois.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASC Illinois.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		015DE6691AACFC3000BF3539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015DE66A1AACFC3000BF3539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		015DE66C1AACFC3000BF3539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		015DE66F1AACFC3000BF3539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		015DE6711AACFC3000BF3539 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		015DE6741AACFC3000BF3539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		015DE67A1AACFC3000BF3539 /* ASC IllinoisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASC IllinoisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		015DE67F1AACFC3000BF3539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015DE6801AACFC3000BF3539 /* ASC_IllinoisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC_IllinoisTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015DE6621AACFC3000BF3539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015DE6771AACFC3000BF3539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015DE65C1AACFC3000BF3539 = {
+			isa = PBXGroup;
+			children = (
+				015DE6671AACFC3000BF3539 /* ASC Illinois */,
+				015DE67D1AACFC3000BF3539 /* ASC IllinoisTests */,
+				015DE6661AACFC3000BF3539 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		015DE6661AACFC3000BF3539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015DE6651AACFC3000BF3539 /* ASC Illinois.app */,
+				015DE67A1AACFC3000BF3539 /* ASC IllinoisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		015DE6671AACFC3000BF3539 /* ASC Illinois */ = {
+			isa = PBXGroup;
+			children = (
+				015DE66A1AACFC3000BF3539 /* AppDelegate.swift */,
+				015DE66C1AACFC3000BF3539 /* ViewController.swift */,
+				015DE66E1AACFC3000BF3539 /* Main.storyboard */,
+				015DE6711AACFC3000BF3539 /* Images.xcassets */,
+				015DE6731AACFC3000BF3539 /* LaunchScreen.xib */,
+				015DE6681AACFC3000BF3539 /* Supporting Files */,
+			);
+			path = "ASC Illinois";
+			sourceTree = "<group>";
+		};
+		015DE6681AACFC3000BF3539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				015DE6691AACFC3000BF3539 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		015DE67D1AACFC3000BF3539 /* ASC IllinoisTests */ = {
+			isa = PBXGroup;
+			children = (
+				015DE6801AACFC3000BF3539 /* ASC_IllinoisTests.swift */,
+				015DE67E1AACFC3000BF3539 /* Supporting Files */,
+			);
+			path = "ASC IllinoisTests";
+			sourceTree = "<group>";
+		};
+		015DE67E1AACFC3000BF3539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				015DE67F1AACFC3000BF3539 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		015DE6641AACFC3000BF3539 /* ASC Illinois */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015DE6841AACFC3000BF3539 /* Build configuration list for PBXNativeTarget "ASC Illinois" */;
+			buildPhases = (
+				015DE6611AACFC3000BF3539 /* Sources */,
+				015DE6621AACFC3000BF3539 /* Frameworks */,
+				015DE6631AACFC3000BF3539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASC Illinois";
+			productName = "ASC Illinois";
+			productReference = 015DE6651AACFC3000BF3539 /* ASC Illinois.app */;
+			productType = "com.apple.product-type.application";
+		};
+		015DE6791AACFC3000BF3539 /* ASC IllinoisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 015DE6871AACFC3000BF3539 /* Build configuration list for PBXNativeTarget "ASC IllinoisTests" */;
+			buildPhases = (
+				015DE6761AACFC3000BF3539 /* Sources */,
+				015DE6771AACFC3000BF3539 /* Frameworks */,
+				015DE6781AACFC3000BF3539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				015DE67C1AACFC3000BF3539 /* PBXTargetDependency */,
+			);
+			name = "ASC IllinoisTests";
+			productName = "ASC IllinoisTests";
+			productReference = 015DE67A1AACFC3000BF3539 /* ASC IllinoisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		015DE65D1AACFC3000BF3539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tingting Gao";
+				TargetAttributes = {
+					015DE6641AACFC3000BF3539 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					015DE6791AACFC3000BF3539 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 015DE6641AACFC3000BF3539;
+					};
+				};
+			};
+			buildConfigurationList = 015DE6601AACFC3000BF3539 /* Build configuration list for PBXProject "ASC Illinois" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 015DE65C1AACFC3000BF3539;
+			productRefGroup = 015DE6661AACFC3000BF3539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				015DE6641AACFC3000BF3539 /* ASC Illinois */,
+				015DE6791AACFC3000BF3539 /* ASC IllinoisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		015DE6631AACFC3000BF3539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015DE6701AACFC3000BF3539 /* Main.storyboard in Resources */,
+				015DE6751AACFC3000BF3539 /* LaunchScreen.xib in Resources */,
+				015DE6721AACFC3000BF3539 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015DE6781AACFC3000BF3539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015DE6611AACFC3000BF3539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015DE66D1AACFC3000BF3539 /* ViewController.swift in Sources */,
+				015DE66B1AACFC3000BF3539 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		015DE6761AACFC3000BF3539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015DE6811AACFC3000BF3539 /* ASC_IllinoisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		015DE67C1AACFC3000BF3539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 015DE6641AACFC3000BF3539 /* ASC Illinois */;
+			targetProxy = 015DE67B1AACFC3000BF3539 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		015DE66E1AACFC3000BF3539 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015DE66F1AACFC3000BF3539 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		015DE6731AACFC3000BF3539 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015DE6741AACFC3000BF3539 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		015DE6821AACFC3000BF3539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		015DE6831AACFC3000BF3539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		015DE6851AACFC3000BF3539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ASC Illinois/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		015DE6861AACFC3000BF3539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ASC Illinois/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		015DE6881AACFC3000BF3539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ASC IllinoisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASC Illinois.app/ASC Illinois";
+			};
+			name = Debug;
+		};
+		015DE6891AACFC3000BF3539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ASC IllinoisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASC Illinois.app/ASC Illinois";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015DE6601AACFC3000BF3539 /* Build configuration list for PBXProject "ASC Illinois" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015DE6821AACFC3000BF3539 /* Debug */,
+				015DE6831AACFC3000BF3539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		015DE6841AACFC3000BF3539 /* Build configuration list for PBXNativeTarget "ASC Illinois" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015DE6851AACFC3000BF3539 /* Debug */,
+				015DE6861AACFC3000BF3539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		015DE6871AACFC3000BF3539 /* Build configuration list for PBXNativeTarget "ASC IllinoisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015DE6881AACFC3000BF3539 /* Debug */,
+				015DE6891AACFC3000BF3539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 015DE65D1AACFC3000BF3539 /* Project object */;
+}
