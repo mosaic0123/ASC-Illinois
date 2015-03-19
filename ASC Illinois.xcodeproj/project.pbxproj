@@ -7,12 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013A8DAE1AB63DEC005DBC6E /* BoardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013A8DAD1AB63DEC005DBC6E /* BoardTableViewController.swift */; };
+		013A8DB01AB63DFE005DBC6E /* BoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013A8DAF1AB63DFE005DBC6E /* BoardTableViewCell.swift */; };
 		015DE66B1AACFC3000BF3539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DE66A1AACFC3000BF3539 /* AppDelegate.swift */; };
-		015DE66D1AACFC3000BF3539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DE66C1AACFC3000BF3539 /* ViewController.swift */; };
 		015DE6701AACFC3000BF3539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015DE66E1AACFC3000BF3539 /* Main.storyboard */; };
-		015DE6721AACFC3000BF3539 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015DE6711AACFC3000BF3539 /* Images.xcassets */; };
 		015DE6751AACFC3000BF3539 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 015DE6731AACFC3000BF3539 /* LaunchScreen.xib */; };
 		015DE6811AACFC3000BF3539 /* ASC_IllinoisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DE6801AACFC3000BF3539 /* ASC_IllinoisTests.swift */; };
+		015DE68F1AACFCD700BF3539 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015DE68E1AACFCD700BF3539 /* AudioToolbox.framework */; };
+		015DE6911AACFCDE00BF3539 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015DE6901AACFCDE00BF3539 /* CFNetwork.framework */; };
+		015DE6931AACFCE300BF3539 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015DE6921AACFCE300BF3539 /* CoreGraphics.framework */; };
+		015DE6951AACFCE900BF3539 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015DE6941AACFCE900BF3539 /* CoreLocation.framework */; };
+		015DE6971AACFCEE00BF3539 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015DE6961AACFCEE00BF3539 /* MobileCoreServices.framework */; };
+		015DE6991AACFCF400BF3539 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015DE6981AACFCF400BF3539 /* QuartzCore.framework */; };
+		015DE69B1AACFCFA00BF3539 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015DE69A1AACFCFA00BF3539 /* Security.framework */; };
+		015DE69D1AACFCFE00BF3539 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015DE69C1AACFCFE00BF3539 /* StoreKit.framework */; };
+		015DE69F1AACFD0300BF3539 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015DE69E1AACFD0300BF3539 /* SystemConfiguration.framework */; };
+		015DE6A11AACFD0900BF3539 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 015DE6A01AACFD0900BF3539 /* libz.dylib */; };
+		015DE6A31AACFD1100BF3539 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 015DE6A21AACFD1100BF3539 /* libsqlite3.dylib */; };
+		015DE6AA1AACFE5200BF3539 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DE6A91AACFE5200BF3539 /* LoginViewController.swift */; };
+		015DE6AC1AAD057600BF3539 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015DE6AB1AAD057600BF3539 /* Images.xcassets */; };
+		015DE6AE1AAD13E600BF3539 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DE6AD1AAD13E600BF3539 /* EventTableViewController.swift */; };
+		015DE6B01AAD181900BF3539 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DE6AF1AAD181900BF3539 /* EventTableViewCell.swift */; };
+		015DE6B21AAD1CE900BF3539 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015DE6B11AAD1CE900BF3539 /* DetailViewController.swift */; };
+		019901711AB8CFB90010E8D7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0199016F1AB8CFB90010E8D7 /* Bolts.framework */; };
+		019901721AB8CFB90010E8D7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019901701AB8CFB90010E8D7 /* Parse.framework */; };
+		019901741AB8D2ED0010E8D7 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019901731AB8D2ED0010E8D7 /* HeaderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +45,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013A8DAD1AB63DEC005DBC6E /* BoardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardTableViewController.swift; sourceTree = "<group>"; };
+		013A8DAF1AB63DFE005DBC6E /* BoardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardTableViewCell.swift; sourceTree = "<group>"; };
 		015DE6651AACFC3000BF3539 /* ASC Illinois.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASC Illinois.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		015DE6691AACFC3000BF3539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		015DE66A1AACFC3000BF3539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		015DE66C1AACFC3000BF3539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		015DE66F1AACFC3000BF3539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		015DE6711AACFC3000BF3539 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		015DE6741AACFC3000BF3539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		015DE67A1AACFC3000BF3539 /* ASC IllinoisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASC IllinoisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		015DE67F1AACFC3000BF3539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		015DE6801AACFC3000BF3539 /* ASC_IllinoisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC_IllinoisTests.swift; sourceTree = "<group>"; };
+		015DE68E1AACFCD700BF3539 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		015DE6901AACFCDE00BF3539 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		015DE6921AACFCE300BF3539 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		015DE6941AACFCE900BF3539 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		015DE6961AACFCEE00BF3539 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		015DE6981AACFCF400BF3539 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		015DE69A1AACFCFA00BF3539 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		015DE69C1AACFCFE00BF3539 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		015DE69E1AACFD0300BF3539 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		015DE6A01AACFD0900BF3539 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		015DE6A21AACFD1100BF3539 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		015DE6A41AACFD5D00BF3539 /* ASC Illinois-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASC Illinois-Bridging-Header.h"; sourceTree = "<group>"; };
+		015DE6A91AACFE5200BF3539 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		015DE6AB1AAD057600BF3539 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		015DE6AD1AAD13E600BF3539 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		015DE6AF1AAD181900BF3539 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		015DE6B11AAD1CE900BF3539 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0199016F1AB8CFB90010E8D7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		019901701AB8CFB90010E8D7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		019901731AB8D2ED0010E8D7 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +82,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015DE6A31AACFD1100BF3539 /* libsqlite3.dylib in Frameworks */,
+				015DE6A11AACFD0900BF3539 /* libz.dylib in Frameworks */,
+				015DE69F1AACFD0300BF3539 /* SystemConfiguration.framework in Frameworks */,
+				019901711AB8CFB90010E8D7 /* Bolts.framework in Frameworks */,
+				015DE69D1AACFCFE00BF3539 /* StoreKit.framework in Frameworks */,
+				015DE69B1AACFCFA00BF3539 /* Security.framework in Frameworks */,
+				019901721AB8CFB90010E8D7 /* Parse.framework in Frameworks */,
+				015DE6991AACFCF400BF3539 /* QuartzCore.framework in Frameworks */,
+				015DE6971AACFCEE00BF3539 /* MobileCoreServices.framework in Frameworks */,
+				015DE6951AACFCE900BF3539 /* CoreLocation.framework in Frameworks */,
+				015DE6931AACFCE300BF3539 /* CoreGraphics.framework in Frameworks */,
+				015DE6911AACFCDE00BF3539 /* CFNetwork.framework in Frameworks */,
+				015DE68F1AACFCD700BF3539 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +111,21 @@
 		015DE65C1AACFC3000BF3539 = {
 			isa = PBXGroup;
 			children = (
+				015DE6A21AACFD1100BF3539 /* libsqlite3.dylib */,
+				015DE6A01AACFD0900BF3539 /* libz.dylib */,
+				015DE69E1AACFD0300BF3539 /* SystemConfiguration.framework */,
+				015DE69C1AACFCFE00BF3539 /* StoreKit.framework */,
+				015DE69A1AACFCFA00BF3539 /* Security.framework */,
+				015DE6981AACFCF400BF3539 /* QuartzCore.framework */,
+				015DE6961AACFCEE00BF3539 /* MobileCoreServices.framework */,
+				015DE6941AACFCE900BF3539 /* CoreLocation.framework */,
+				015DE6921AACFCE300BF3539 /* CoreGraphics.framework */,
+				015DE6901AACFCDE00BF3539 /* CFNetwork.framework */,
+				015DE68E1AACFCD700BF3539 /* AudioToolbox.framework */,
 				015DE6671AACFC3000BF3539 /* ASC Illinois */,
 				015DE67D1AACFC3000BF3539 /* ASC IllinoisTests */,
 				015DE6661AACFC3000BF3539 /* Products */,
+				015DE6A41AACFD5D00BF3539 /* ASC Illinois-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,10 +141,18 @@
 		015DE6671AACFC3000BF3539 /* ASC Illinois */ = {
 			isa = PBXGroup;
 			children = (
+				0199016F1AB8CFB90010E8D7 /* Bolts.framework */,
+				019901701AB8CFB90010E8D7 /* Parse.framework */,
+				015DE6A91AACFE5200BF3539 /* LoginViewController.swift */,
 				015DE66A1AACFC3000BF3539 /* AppDelegate.swift */,
-				015DE66C1AACFC3000BF3539 /* ViewController.swift */,
+				015DE6AB1AAD057600BF3539 /* Images.xcassets */,
 				015DE66E1AACFC3000BF3539 /* Main.storyboard */,
-				015DE6711AACFC3000BF3539 /* Images.xcassets */,
+				013A8DAD1AB63DEC005DBC6E /* BoardTableViewController.swift */,
+				013A8DAF1AB63DFE005DBC6E /* BoardTableViewCell.swift */,
+				015DE6AD1AAD13E600BF3539 /* EventTableViewController.swift */,
+				019901731AB8D2ED0010E8D7 /* HeaderCell.swift */,
+				015DE6AF1AAD181900BF3539 /* EventTableViewCell.swift */,
+				015DE6B11AAD1CE900BF3539 /* DetailViewController.swift */,
 				015DE6731AACFC3000BF3539 /* LaunchScreen.xib */,
 				015DE6681AACFC3000BF3539 /* Supporting Files */,
 			);
@@ -161,6 +233,7 @@
 				TargetAttributes = {
 					015DE6641AACFC3000BF3539 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 6CPHQP7BRL;
 					};
 					015DE6791AACFC3000BF3539 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -192,9 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015DE6AC1AAD057600BF3539 /* Images.xcassets in Resources */,
 				015DE6701AACFC3000BF3539 /* Main.storyboard in Resources */,
 				015DE6751AACFC3000BF3539 /* LaunchScreen.xib in Resources */,
-				015DE6721AACFC3000BF3539 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				015DE66D1AACFC3000BF3539 /* ViewController.swift in Sources */,
+				013A8DAE1AB63DEC005DBC6E /* BoardTableViewController.swift in Sources */,
+				015DE6B01AAD181900BF3539 /* EventTableViewCell.swift in Sources */,
+				013A8DB01AB63DFE005DBC6E /* BoardTableViewCell.swift in Sources */,
+				015DE6AA1AACFE5200BF3539 /* LoginViewController.swift in Sources */,
+				019901741AB8D2ED0010E8D7 /* HeaderCell.swift in Sources */,
+				015DE6B21AAD1CE900BF3539 /* DetailViewController.swift in Sources */,
+				015DE6AE1AAD13E600BF3539 /* EventTableViewController.swift in Sources */,
 				015DE66B1AACFC3000BF3539 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +415,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+				);
 				INFOPLIST_FILE = "ASC Illinois/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ASC Illinois-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +446,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+					"$(PROJECT_DIR)/ASC",
+					Illinois,
+				);
 				INFOPLIST_FILE = "ASC Illinois/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ASC Illinois-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +525,7 @@
 				015DE6861AACFC3000BF3539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		015DE6871AACFC3000BF3539 /* Build configuration list for PBXNativeTarget "ASC IllinoisTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +534,7 @@
 				015DE6891AACFC3000BF3539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
